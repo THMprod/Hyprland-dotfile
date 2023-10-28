@@ -17,7 +17,9 @@ alias cmatrix='cmatrix -aoC green'
 alias lf='ranger'
 #alias rm='rm -i'
 alias note='nvim ~/.note'
-alias docker='sudo docker'
+alias rm='rm -v'
+alias cp='cp -v'
+alias mv='mv -v'
 
 starship init fish | source
 end
