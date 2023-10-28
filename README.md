@@ -42,7 +42,7 @@ sudo systemctl enable ly
 Pour les outils et polices que je recommande/utilise
 
 ```bash
-sudo pacman -S neovim neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp dunst zathura zathura-cb zathura-djvu zathura-pdf-mupdf
+sudo pacman -S neovim neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp wl-clipboard dunst zathura zathura-cb zathura-djvu zathura-pdf-mupdf
 ```
 
 neovim : application de développement texte dans le terminal
@@ -56,6 +56,8 @@ ttf-nerd-fonts-symbols : collection de police avec des symboles (requis pour neo
 grim : application de capture d'écran
 
 slurp : permet de sélectionner une portion de l'écran (pratique pour grim)
+
+wl-clipboard : utilitaire de copier/coller (pratique pour grim)
 
 dunst : gestionnaire de notifications
 
