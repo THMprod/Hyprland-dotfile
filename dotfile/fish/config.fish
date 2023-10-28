@@ -3,10 +3,11 @@ if status is-interactive
 
 neofetch
 
-alias grep='grep --color=auto'
-alias ls='eza -Bh --icons'
-alias ll='eza -Bhl --icons'
-alias la='eza -lA --icons'
+alias grep='rg --color=auto'
+alias ls='eza --icons'
+alias ll='eza -hl --icons'
+alias la='eza -A --icons'
+alias lla='eza -lAh --icons'
 alias cat='bat --theme=base16 --style=plain --paging=never'
 alias update-arch='yay -Syyu'
 alias clean-arch='yay -Sc && yay -Yc'
