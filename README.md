@@ -1,9 +1,9 @@
 # Hyprland-dotfile
-Mes fichiers de configuration pour une Arch Hyprland
+Mes fichiers de configuration pour une Arch avec Hyprland en Window Manager
 
-/!\ À exécuter sur une installation neuve d'Arch ou distribution basé sur Arch (de préférence une installation d' Endeavour personnalisée et minimale.)
+/!\ À exécuter sur une installation neuve d'Arch ou distribution basée sur Arch (de préférence une installation d' Endeavour personnalisée et minimale.)
 
-Pour installer ces fichiers de configurations il vous faut les paquets suivant :
+Pour installer ces fichiers de configurations, il vous faut les paquets suivant :
 
 ## Prérequis obligatoires
 ```bash
@@ -16,21 +16,21 @@ sudo pacman -S ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol o
 
 `hyprpaper` : outil de fond d'écran
 
-`kitty` : terminal
+`kitty` : terminal (SUPER + Q)
 
 `imagemagick` : permet d'afficher des images dans le terminal à l'aide de kitty
 
-`wofi` : lanceur d'application
+`wofi` : lanceur d'application (SUPER + R)
 
 `waybar` : barre de menu
 
-`otf-font-awesome` : police avec icone requis pour waybar
+`otf-font-awesome` : police avec icones requis pour waybar
 
 `pipewire` et `wireplumber` : serveur son
 
 `xdg-desktop-portal-hyprland` : permet de mieux capturer son écran avec des logiciels (nécessaire pour grim et slurp)
 
-`pavucontrol` : gestionnaire de son
+`pavucontrol` : gestionnaire de son (Clic sur la case son dans Waybar)
 
 `ranger` (et `lf`) : gestionnaire de fichier dans le terminal (lf alias dans la config fish de ranger)
 
@@ -73,9 +73,9 @@ sudo pacman -S neovim neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim sl
 
 `neofetch` : permet d'afficher des informations systèmes (avec une apparence personnalisée ici)
 
-`ttf-nerd-fonts-symbols` : collection de police avec des symboles (requis pour neofetch)
+`ttf-nerd-fonts-symbols` : collection de polices avec des symboles
 
-`grim` : application de capture d'écran
+`grim` : application de capture d'écran (SUPER + G)
 
 `slurp` : permet de sélectionner une portion de l'écran (pratique pour grim)
 
@@ -94,4 +94,34 @@ sudo pacman -S cmatrix starship
 ```
 
 `cmatrix` : pour être un vrai hackeur en public.
+
 `starship` : Pour un peu plus customiser son terminal.
+
+# Installation des fichiers de configurations.
+
+Créer les répertoires nécéssaires à déplacer les fichiers de configurations
+
+```bash
+mkdir -p ~/.config/hypr/
+mkdir -p ~/.config/neofetch/
+mkdir -p ~/.config/ranger/
+mkdir -p ~/.config/waybar/
+mkdir -p ~/.config/fish/
+```
+
+Pour télécharger les fichiers sur votre ordinateur :
+
+```bash
+gitclone https://github.com/THMprod/Hyprland-dotfile/
+cd Hyprland-dotfile/dotfile/
+```
+
+Copier les fichiers de configurations dans les dossiers nouvellements créés.
+
+```bash
+cp ./fish/* ~/.config/fish/
+cp ./waybar/* ~/.config/waybar/
+cp ./ranger/* ~/.config/ranger/
+cp ./neofetch/* ~/.config/neofetch/
+cp ./hypr/* ~/.config/hypr/
+```
