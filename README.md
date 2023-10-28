@@ -42,7 +42,7 @@ sudo systemctl enable ly
 Pour les outils et polices que je recommande/utilise
 
 ```bash
-sudo pacman -S neovim neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim dunst zathura zathura-cb zathura-djvu zathura-pdf-mupdf
+sudo pacman -S neovim neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp dunst zathura zathura-cb zathura-djvu zathura-pdf-mupdf
 ```
 
 neovim : application de développement texte dans le terminal
