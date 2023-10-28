@@ -5,6 +5,7 @@ Mes fichiers de configuration pour une Arch Hyprland
 
 Pour installer ces fichiers de configurations il vous faut les paquets suivant :
 
+## Prérequis obligatoires
 ```bash
 sudo pacman -S ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger lf pipewire wireplumber xdg-desktop-portal-hyprland fish
 ```
@@ -55,7 +56,7 @@ et pour supprimer le message de bienvenue de fish :
 set -U fish_greeting
 ```
 
-Pour les outils et polices que je recommande/utilise
+## Pour les outils et polices que je recommande/utilise
 
 ```bash
 sudo pacman -S neovim neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp wl-clipboard dunst zathura zathura-cb zathura-djvu zathura-pdf-mupdf
@@ -81,7 +82,7 @@ sudo pacman -S neovim neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim sl
 
 `zathura` : ouvrir des fichiers depuis Ranger
 
-Pour les outils juste amusant :
+## Pour les outils juste amusant :
 
 ```bash
 sudo pacman -S cmatrix starship
