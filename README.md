@@ -48,7 +48,7 @@ sudo systemctl enable ly
 Pour que votre votre profil utilise fish par défaut :
 
 ```bash
-chsh -s /usr/bin/fish
+chsh -s /usr/bin/fish $USER
 ```
 et pour supprimer le message de bienvenue de fish :
 
