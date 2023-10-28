@@ -7,7 +7,7 @@ Pour installer ces fichiers de configurations il vous faut les paquets suivant :
 
 ## Prérequis obligatoires
 ```bash
-sudo pacman -S ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger lf pipewire wireplumber xdg-desktop-portal-hyprland fish
+sudo pacman -S ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger lf pipewire wireplumber xdg-desktop-portal-hyprland fish eza ripgrep bat
 ```
 
 `ly` : display manager / login screen
@@ -32,10 +32,15 @@ sudo pacman -S ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol o
 
 `pavucontrol` : gestionnaire de son
 
-`ranger` (et `lf`) : gestionnaire de fichier dans le terminal
+`ranger` (et `lf`) : gestionnaire de fichier dans le terminal (lf alias dans la config fish de ranger)
 
 `fish` : the friendly shell, un shell avec de l'auto complétion
 
+`eza` : remplacement pour "ls" (alias dans la config fish)
+
+`bat` : remplacement pour "cat" (alias dans la config fish)
+
+`ripgrep` : remplacement pour "grep" (alias dans la config fish)
 
 
 Pour que votre ordinateur démarre sur le display manager :
