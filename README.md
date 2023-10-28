@@ -55,6 +55,8 @@ ttf-nerd-fonts-symbols : collection de police avec des symboles (requis pour neo
 
 grim : application de capture d'écran
 
+slurp : permet de sélectionner une portion de l'écran (pratique pour grim)
+
 dunst : gestionnaire de notifications
 
 otf-ipaexfont : police pour les caractères japonais
