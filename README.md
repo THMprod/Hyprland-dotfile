@@ -99,6 +99,12 @@ sudo pacman -S cmatrix starship
 
 # Installation des fichiers de configurations.
 
+Installation de git pour récupérer les fichiers de configurations :
+
+```bash
+sudo pacman -S git
+```
+
 Créer les répertoires nécéssaires à déplacer les fichiers de configurations
 
 ```bash
@@ -115,6 +121,13 @@ Pour télécharger les fichiers sur votre ordinateur :
 gitclone https://github.com/THMprod/Hyprland-dotfile/
 cd Hyprland-dotfile/dotfile/
 ```
+
+vous pouvez désinstaller git après cette commande si vous le désirez avec avec un :
+
+```bash
+sudo pacman -Rns git
+```
+
 
 Copier les fichiers de configurations dans les dossiers nouvellements créés.
 
