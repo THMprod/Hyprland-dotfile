@@ -25,7 +25,7 @@ otf-font-awesome : police avec icone requis pour waybar
 
 pipewire et wireplumber : serveur son
 
-xdg-desktop-portal-hyprland : permet de mieux capturer son écran avec des logiciels comme OBS (si j'ai bien compris)
+xdg-desktop-portal-hyprland : permet de mieux capturer son écran avec des logiciels (nécessaire pour grim et slurp)
 
 pavucontrol : gestionnaire de son
 
