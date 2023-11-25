@@ -118,7 +118,7 @@ mkdir -p ~/.config/fish/
 Pour télécharger les fichiers sur votre ordinateur :
 
 ```bash
-gitclone https://github.com/THMprod/Hyprland-dotfile/
+git clone https://github.com/THMprod/Hyprland-dotfile/
 cd Hyprland-dotfile/dotfile/
 ```
 
