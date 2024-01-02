@@ -7,7 +7,7 @@ Pour installer ces fichiers de configurations, il vous faut les paquets suivant 
 
 ## Prérequis obligatoires
 ```bash
-sudo pacman -S ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger lf pipewire wireplumber xdg-desktop-portal-hyprland fish eza ripgrep bat
+sudo pacman -S ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger pipewire wireplumber xdg-desktop-portal-hyprland fish eza ripgrep bat neovim dunst starship
 ```
 
 `ly` : display manager / login screen
@@ -30,17 +30,23 @@ sudo pacman -S ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol o
 
 `xdg-desktop-portal-hyprland` : permet de mieux capturer son écran avec des logiciels (nécessaire pour grim et slurp)
 
-`pavucontrol` : gestionnaire de son (Clic sur la case son dans Waybar)
+`pavucontrol` : gestionnaire de son (Clic gauche sur la case son dans Waybar, pratique pour pipewire et wireplumber ainsi que waybar)
 
-`ranger` (et `lf`) : gestionnaire de fichier dans le terminal (lf alias dans la config fish de ranger)
+`ranger` : gestionnaire de fichier dans le terminal (il existe aussi lf qui est un autre gestionnaire de fichier mais ici c'est un alias de ranger car on ne change pas les vieilles habitudes)
 
-`fish` : the friendly shell, un shell avec de l'auto complétion
+`fish` : the friendly shell, un shell avec de l'auto-complétion et plus customisable
 
-`eza` : remplacement pour "ls" (alias dans la config fish)
+`eza` : remplacement pour "ls" (alias dans la configuration de fish) (eza est aussi un remplacement du paquet "exa" qui n'est plus maintenu)
 
-`bat` : remplacement pour "cat" (alias dans la config fish)
+`bat` : remplacement pour "cat" (alias dans la configuration de fish)
 
-`ripgrep` : remplacement pour "grep" (alias dans la config fish)
+`ripgrep` : remplacement pour "grep" (alias dans la configuration de fish)
+
+`neovim` : application de développement texte dans le terminal
+
+`dunst` : gestionnaire de notifications
+
+`starship` : Pour un peu plus customiser son terminal.
 
 
 Pour que votre ordinateur démarre sur le display manager :
@@ -50,24 +56,19 @@ sudo systemctl enable ly
 ```
 
 
-Pour que votre votre profil utilise fish par défaut :
+Pour que votre votre profil utilise fish par défaut et pour supprimer le message de bienvenue de fish :
 
 ```bash
 chsh -s /usr/bin/fish $USER
-```
-et pour supprimer le message de bienvenue de fish :
-
-```bash
 set -U fish_greeting
 ```
+
 
 ## Pour les outils et polices que je recommande/utilise
 
 ```bash
-sudo pacman -S neovim neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp wl-clipboard dunst zathura zathura-cb zathura-djvu zathura-pdf-mupdf
+sudo pacman -S neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp wl-clipboard zathura zathura-cb zathura-djvu zathura-pdf-mupdf
 ```
-
-`neovim` : application de développement texte dans le terminal
 
 `btop` : gestionnaire d'application
 
@@ -81,21 +82,18 @@ sudo pacman -S neovim neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim sl
 
 `wl-clipboard` : utilitaire de copier/coller (pratique pour grim)
 
-`dunst` : gestionnaire de notifications
-
 `otf-ipaexfont` : police pour les caractères japonais
 
 `zathura` : ouvrir des fichiers depuis Ranger
 
+
 ## Pour les outils juste amusant :
 
 ```bash
-sudo pacman -S cmatrix starship
+sudo pacman -S cmatrix
 ```
 
 `cmatrix` : pour être un vrai hackeur en public.
-
-`starship` : Pour un peu plus customiser son terminal.
 
 # Installation des fichiers de configurations.
 
@@ -122,13 +120,6 @@ git clone https://github.com/THMprod/Hyprland-dotfile/
 cd Hyprland-dotfile/dotfile/
 ```
 
-vous pouvez désinstaller git après cette commande si vous le désirez avec avec un :
-
-```bash
-sudo pacman -Rns git
-```
-
-
 Copier les fichiers de configurations dans les dossiers nouvellements créés.
 
 ```bash
@@ -137,4 +128,10 @@ cp ./waybar/* ~/.config/waybar/
 cp ./ranger/* ~/.config/ranger/
 cp ./neofetch/* ~/.config/neofetch/
 cp ./hypr/* ~/.config/hypr/
+```
+
+vous pouvez désinstaller git après cette commande si vous le désirez avec avec un :
+
+```bash
+sudo pacman -Rns git
 ```
