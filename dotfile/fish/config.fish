@@ -4,7 +4,11 @@ if status is-interactive
 #lance neofetch au démarrage du terminal
 neofetch
 
-#charge les alias depuis le fichier d'alias
+#Place neovim en éditeur de texte par défaut
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
+#charge les alias depuis un fichier d'alias
 source ~/.config/fish/aliases.fish
 
 #lance starship pour customiser le terminal
