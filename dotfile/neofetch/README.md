@@ -15,11 +15,8 @@ La commande pour Arch :
 pacman -Syu kitty imagemagick
 ```
 
-Pour que les icones fonctionnent, je vous invite à télécharger "Firacode Nerd Font"
+Si vous souhaitez mettre une police personnalisée, je vous invite à les installer dans les dossiers :
 
-https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/FiraCode.zip
-
-et l'installer dans le dossier :
 
 `~/.local/share/fonts` ou `~/.fonts`
 
@@ -34,11 +31,6 @@ mkdir ~/.fonts
 ```
 selon votre concenance.
 
-sinon il y a le paquet `ttf-nerd-fonts-symbols` dans le dépot Extra de Arch.
- 
-```bash
-sudo pacman -S ttf-nerd-fonts-symbols
-```
 
 Pour un aperçu de ce que ça donne :
 ![Screenshot_20230530_002027](https://github.com/THMprod/Neofetch_config/assets/82099500/b681280c-212e-4e56-b478-585a5af73393)
