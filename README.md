@@ -106,11 +106,11 @@ sudo pacman -S git
 Créer les répertoires nécéssaires à déplacer les fichiers de configurations
 
 ```bash
-mkdir -p ~/.config/hypr/
-mkdir -p ~/.config/neofetch/
-mkdir -p ~/.config/ranger/
-mkdir -p ~/.config/waybar/
-mkdir -p ~/.config/fish/
+mkdir -pv ~/.config/hypr/
+mkdir -pv ~/.config/neofetch/
+mkdir -pv ~/.config/ranger/
+mkdir -pv ~/.config/waybar/
+mkdir -pv ~/.config/fish/
 ```
 
 Pour télécharger les fichiers sur votre ordinateur :
@@ -123,11 +123,11 @@ cd Hyprland-dotfile/dotfile/
 Copier les fichiers de configurations dans les dossiers nouvellements créés.
 
 ```bash
-cp ./fish/* ~/.config/fish/
-cp ./waybar/* ~/.config/waybar/
-cp ./ranger/* ~/.config/ranger/
-cp ./neofetch/* ~/.config/neofetch/
-cp ./hypr/* ~/.config/hypr/
+cp -v ./fish/* ~/.config/fish/
+cp -v ./waybar/* ~/.config/waybar/
+cp -v ./ranger/* ~/.config/ranger/
+cp -v ./neofetch/* ~/.config/neofetch/
+cp -v ./hypr/* ~/.config/hypr/
 ```
 
 vous pouvez désinstaller git après cette commande si vous le désirez avec avec un :
