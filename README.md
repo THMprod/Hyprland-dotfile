@@ -7,7 +7,7 @@ Pour installer ces fichiers de configurations, il vous faut les paquets suivant 
 
 ## Prérequis obligatoires
 ```bash
-sudo pacman -S ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger pipewire wireplumber xdg-desktop-portal-hyprland fish eza ripgrep bat neovim dunst starship
+sudo pacman -S --needed ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger pipewire wireplumber xdg-desktop-portal-hyprland fish eza ripgrep bat neovim dunst starship
 ```
 
 `ly` : display manager / login screen
@@ -67,7 +67,7 @@ set -U fish_greeting
 ## Pour les outils et polices que je recommande/utilise
 
 ```bash
-sudo pacman -S neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp wl-clipboard zathura zathura-cb zathura-djvu zathura-pdf-mupdf
+sudo pacman -S --needed neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp wl-clipboard zathura zathura-cb zathura-djvu zathura-pdf-mupdf
 ```
 
 `btop` : gestionnaire d'application
@@ -90,7 +90,7 @@ sudo pacman -S neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp wl-
 ## Pour les outils juste amusant :
 
 ```bash
-sudo pacman -S cmatrix
+sudo pacman -S --needed cmatrix
 ```
 
 `cmatrix` : pour être un vrai hackeur en public.
@@ -100,7 +100,7 @@ sudo pacman -S cmatrix
 Installation de git pour récupérer les fichiers de configurations :
 
 ```bash
-sudo pacman -S git
+sudo pacman -S --needed git
 ```
 
 Créer les répertoires nécéssaires à déplacer les fichiers de configurations
