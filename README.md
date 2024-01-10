@@ -130,8 +130,20 @@ cp -v ./neofetch/* ~/.config/neofetch/
 cp -v ./hypr/* ~/.config/hypr/
 ```
 
-vous pouvez désinstaller git après cette commande si vous le désirez avec avec un :
+Vous pouvez désinstaller git après cette commande si vous le désirez avec avec un :
 
 ```bash
 sudo pacman -Rns git
 ```
+
+Vous pouveez installer `yay` pour avoir accès à l'AUR :
+
+```bash
+sudo pacman -S --needed base-devel
+sudo git clone https://aur.archlinux.org/yay.git
+sudo chown -R  USERNAME:USERNAME yay
+cd yay
+makepkg -si
+```
+
+(aussi requis pour des commandes de maintenance système dans ``~/.config/fish/aliases.fish``)

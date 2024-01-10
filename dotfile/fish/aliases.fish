@@ -25,6 +25,7 @@ alias mv='mv -v'
 
 #Car on ne change pas les vieilles habitudes
 alias lf='ranger'
+alias paru='yay'
 
 #Commande inutile
 alias cmatrix='cmatrix -aoC green'
