@@ -5,6 +5,7 @@ alias ll='eza -hl --icons'
 alias la='eza -A --icons'
 alias lla='eza -lAh --icons'
 alias cat='bat --theme=base16 --style=plain --paging=never'
+alias df='df -h'
 
 #Commandes de maintenance système
 alias update-arch='yay -Syyu'
