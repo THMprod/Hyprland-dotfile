@@ -12,7 +12,7 @@ export EDITOR="$VISUAL"
 source ~/.config/fish/aliases.fish
 
 #Placer ses binaires dans le dossier utilisateurs ~/.bin
-export PATH=$PATH:~/bin
+export PATH=$PATH:~/.bin
 
 #lance starship pour customiser le terminal
 starship init fish | source
