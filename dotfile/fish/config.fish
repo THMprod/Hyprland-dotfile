@@ -8,8 +8,11 @@ neofetch
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
-#charge les alias depuis un fichier d'alias
+#Charge les alias depuis un fichier d'alias
 source ~/.config/fish/aliases.fish
+
+#Placer ses binaires dans le dossier utilisateurs ~/.bin
+export PATH=$PATH:~/bin
 
 #lance starship pour customiser le terminal
 starship init fish | source
