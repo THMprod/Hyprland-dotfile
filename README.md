@@ -12,9 +12,17 @@ sudo pacman -S --needed wayland wayland-protocols wlroots ly hyprland hyprpaper 
 
 `ly` : display manager / login screen
 
+`wayland` : le serveur d'affichage nouvelle génération, remplace x11, hyprland se base sur wayland
+
+`wayland-protocols` : Ajoutes des fonctionnalité en plus qui se ne sont pas par défaut dans Wayland
+
+`wlroots` : compositeur de fenêtre pour wayland
+
 `hyprland` : Environnement de bureau
 
 `hyprpaper` : outil de fond d'écran
+
+`hyprlang` : langage pour développer des extensions d'hyprland (nécessaire pour hyprpaper)
 
 `kitty` : terminal (SUPER + Q)
 
