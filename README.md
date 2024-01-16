@@ -7,7 +7,7 @@ Pour installer ces fichiers de configurations, il vous faut les paquets suivant 
 
 ## Prérequis obligatoires
 ```bash
-sudo pacman -S --needed ly hyprland hyprpaper kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger pipewire wireplumber xdg-desktop-portal-hyprland fish eza ripgrep bat neovim dunst starship
+sudo pacman -S --needed wayland wayland-protocols wlroots ly hyprland hyprpaper hyprlang kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger pipewire wireplumber xdg-desktop-portal-hyprland fish eza ripgrep bat neovim dunst starship
 ```
 
 `ly` : display manager / login screen
@@ -103,7 +103,7 @@ Installation de git pour récupérer les fichiers de configurations :
 sudo pacman -S --needed git
 ```
 
-Créer les répertoires nécéssaires à déplacer les fichiers de configurations
+Créer les répertoires nécéssaires à déplacer les fichiers de configurations :
 
 ```bash
 mkdir -pv ~/.config/hypr/
@@ -120,7 +120,7 @@ git clone https://github.com/THMprod/Hyprland-dotfile/
 cd Hyprland-dotfile/dotfile/
 ```
 
-Copier les fichiers de configurations dans les dossiers nouvellements créés.
+Copier les fichiers de configurations dans les dossiers nouvellements créés :
 
 ```bash
 cp -v ./fish/* ~/.config/fish/
