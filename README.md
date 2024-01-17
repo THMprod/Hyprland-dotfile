@@ -58,22 +58,16 @@ set -U fish_greeting
 ```bash
 sudo pacman -S --needed neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim slurp wl-clipboard zathura zathura-cb zathura-djvu zathura-pdf-mupdf
 ```
-
-`btop` : gestionnaire d'application
-
-`neofetch` : permet d'afficher des informations systèmes (avec une apparence personnalisée ici)
-
-`ttf-nerd-fonts-symbols` : collection de polices avec des symboles
-
-`grim` : application de capture d'écran (SUPER + G)
-
-`slurp` : permet de sélectionner une portion de l'écran (pratique pour grim)
-
-`wl-clipboard` : utilitaire de copier/coller (pratique pour grim)
-
-`otf-ipaexfont` : police pour les caractères japonais
-
-`zathura` : ouvrir des fichiers depuis Ranger
+|Nom du paquet |Rôle|
+|--------------|---|
+|`btop` | gestionnaire d'application |
+|`neofetch` | permet d'afficher des informations systèmes (avec une apparence personnalisée ici) |
+|`ttf-nerd-fonts-symbols` | collection de polices avec des symboles |
+|`grim` | application de capture d'écran (SUPER + G) |
+|`slurp` | permet de sélectionner une portion de l'écran (pratique pour grim) |
+|`wl-clipboard` | utilitaire de copier/coller (pratique pour grim) |
+|`otf-ipaexfont` | police pour les caractères japonais |
+|`zathura` | ouvrir des fichiers depuis Ranger |
 
 
 ## Pour les outils juste amusant :
@@ -82,7 +76,9 @@ sudo pacman -S --needed neofetch btop otf-ipaexfont ttf-nerd-fonts-symbols grim 
 sudo pacman -S --needed cmatrix
 ```
 
-`cmatrix` : pour être un vrai hackeur en public.
+|Nom du paquet |Rôle|
+|--------------|---|
+|`cmatrix` | pour être un vrai hackeur en public.|
 
 # Installation des fichiers de configurations.
 
