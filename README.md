@@ -10,51 +10,32 @@ Pour installer ces fichiers de configurations, il vous faut les paquets suivant 
 sudo pacman -S --needed wayland wayland-protocols wlroots ly hyprland hyprpaper hyprlang kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger pipewire wireplumber xdg-desktop-portal-hyprland fish eza ripgrep bat neovim dunst starship
 ```
 
-`ly` : display manager / login screen
-
-`wayland` : le serveur d'affichage nouvelle génération, remplace x11, hyprland se base sur wayland
-
-`wayland-protocols` : Ajoutes des fonctionnalité en plus qui se ne sont pas par défaut dans Wayland
-
-`wlroots` : compositeur de fenêtre pour wayland
-
-`hyprland` : Environnement de bureau
-
-`hyprpaper` : outil de fond d'écran
-
-`hyprlang` : langage pour développer des extensions d'hyprland (nécessaire pour hyprpaper)
-
-`kitty` : terminal (SUPER + Q)
-
-`imagemagick` : permet d'afficher des images dans le terminal à l'aide de kitty
-
-`wofi` : lanceur d'application (SUPER + R)
-
-`waybar` : barre de menu
-
-`otf-font-awesome` : police avec icones requis pour waybar
-
-`pipewire` et `wireplumber` : serveur son
-
-`xdg-desktop-portal-hyprland` : permet de mieux capturer son écran avec des logiciels (nécessaire pour grim et slurp)
-
-`pavucontrol` : gestionnaire de son (Clic gauche sur la case son dans Waybar, pratique pour pipewire et wireplumber ainsi que waybar)
-
-`ranger` : gestionnaire de fichier dans le terminal (il existe aussi lf qui est un autre gestionnaire de fichier mais ici c'est un alias de ranger car on ne change pas les vieilles habitudes)
-
-`fish` : the friendly shell, un shell avec de l'auto-complétion et plus customisable
-
-`eza` : remplacement pour "ls" (alias dans la configuration de fish) (eza est aussi un remplacement du paquet "exa" qui n'est plus maintenu)
-
-`bat` : remplacement pour "cat" (alias dans la configuration de fish)
-
-`ripgrep` : remplacement pour "grep" (alias dans la configuration de fish)
-
-`neovim` : application de développement texte dans le terminal
-
-`dunst` : gestionnaire de notifications
-
-`starship` : Pour un peu plus customiser son terminal.
+|Nom du paquet                 |                                                          Rôle                                                |
+|------------------------------|--------------------------------------------------------------------------------------------------------------|
+|`ly`                          | display manager / login screen                                                                               |
+|`wayland`                     | le serveur d'affichage nouvelle génération, remplace x11, hyprland se base sur wayland                       |
+|`wayland-protocols`           | Ajoutes des fonctionnalité en plus qui se ne sont pas par défaut dans Wayland                                |
+|`wlroots`                     | compositeur de fenêtre pour wayland                                                                          |
+|`hyprland`                    | Environnement de bureau                                                                                      |
+|`hyprpaper`                   | outil de fond d'écran                                                                                        |
+|`hyprlang`                    | langage pour développer des extensions d'hyprland (nécessaire pour hyprpaper)                                |
+|`kitty`                       | terminal (SUPER + Q)                                                                                         |
+|`imagemagick`                 | permet d'afficher des images dans le terminal à l'aide de kitty                                              |
+|`wofi`                        | lanceur d'application (SUPER + R)                                                                            |
+|`waybar`                      | barre de menu                                                                                                |
+|`otf-font-awesome`            | police avec icones requis pour waybar                                                                        |
+|`pipewire`                    | serveur son                                                                                                  |
+|`wireplumber`                 | serveur son                                                                                                  |
+|`xdg-desktop-portal-hyprland` | permet de mieux capturer son écran avec des logiciels (nécessaire pour grim et slurp)                        |
+|`pavucontrol`                 | gestionnaire de son (Clic gauche sur la case son dans Waybar, pratique pour waybar)                          |
+|`ranger`                      | gestionnaire de fichier dans le terminal                                                                     |
+|`fish`                        | the friendly shell, un shell avec de l'auto-complétion et plus customisable                                  |
+|`eza`                         | remplacement pour "ls" (alias dans la configuration de fish) (eza est aussi un remplacement de "exa")        |
+|`bat`                         | remplacement pour "cat" (alias dans la configuration de fish)                                                |
+|`ripgrep`                     | remplacement pour "grep" (alias dans la configuration de fish)                                               |
+|`neovim`                      | application de développement texte dans le terminal                                                          |
+|`dunst`                       | gestionnaire de notifications                                                                                |
+|`starship`                    | Pour un peu plus customiser son terminal.                                                                    |
 
 
 Pour que votre ordinateur démarre sur le display manager :
