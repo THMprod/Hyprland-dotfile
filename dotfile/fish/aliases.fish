@@ -28,5 +28,8 @@ alias mv='mv -v'
 alias lf='ranger'
 alias paru='yay'
 
+#Commande pour éviter les oublis
+alias gitcr='git clone --recursive'
+
 #Commande inutile
 alias cmatrix='cmatrix -aoC green'
