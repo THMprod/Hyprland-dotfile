@@ -1,5 +1,5 @@
 # Hyprland-dotfile
-Mes fichiers de configuration pour une Arch avec Hyprland en Window Manager
+Mes fichiers de configuration pour une [Arch](https://archlinux.org) avec Hyprland en Window Manager
 
 /!\ À exécuter sur une installation neuve d'Arch ou distribution basée sur Arch (de préférence une installation d' Endeavour personnalisée et minimale.)
 
