@@ -5,7 +5,10 @@ Mes fichiers de configuration pour une [Arch](https://archlinux.org) avec Hyprla
 
 ## Prérequis obligatoires
 
-Pour installer ces fichiers de configurations, il vous faut les paquets suivant :
+> :warning:
+> 
+> Pour installer ces fichiers de configurations, il vous faut les paquets suivant :
+> 
 
 ```bash
 sudo pacman -S --needed wayland wayland-protocols wlroots ly hyprland hyprpaper hyprlang kitty imagemagick wofi waybar pavucontrol otf-font-awesome ranger pipewire wireplumber xdg-desktop-portal-hyprland fish eza ripgrep bat neovim dunst starship
