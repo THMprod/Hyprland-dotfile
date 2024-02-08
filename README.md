@@ -6,6 +6,7 @@ Mes fichiers de configuration pour une Arch avec Hyprland en Window Manager
 ## Prérequis obligatoires
 
 > :warning:
+> 
 > Pour installer ces fichiers de configurations, il vous faut les paquets suivant :
 > 
 
